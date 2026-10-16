@@ -1,3 +1,6 @@
+#include<iostream>
+#include<vector>
+using namespace std;
 typedef struct Node{
             char alpha;
             Node* next;
