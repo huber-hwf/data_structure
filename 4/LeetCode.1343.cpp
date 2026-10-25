@@ -9,7 +9,7 @@ public:
         for(int i=0, j=0; i<arr.size(); i++){
             sum+=arr[i];
             if(i>=k-1){
-                if(i>k) sum-=arr[j++];
+                if(i>k-1) sum-=arr[j++];
                 double ave=sum*1.0/k;
                 if(ave>=threshold) ans++;
             }
